@@ -14,6 +14,6 @@ unexample --input ./project/.env.example --output ./project/.env --force
 ``` 
 
 ```
-# run without globally installation
+# run without global installation
 npx unexample -i .env.example -o .env.production
 ```
