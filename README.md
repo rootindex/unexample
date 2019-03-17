@@ -3,11 +3,17 @@ Convert .env.example to .env whilst using any exported variables to fill in any 
 
 This package was created to provide a cli tool for CI/CD automations.
 
-## Installation 
+## Installation and usage examples
 
 ```
+# install globally 
 npm install unexample -g
-```
 
-## Usage examples
-`npx unexample` or `npx unexample -i ./project/.env.example -o ./project/.env`
+# and use it
+unexample --input ./project/.env.example --output ./project/.env --force
+``` 
+
+```
+# run without globally installation
+npx unexample -i .env.example -o .env.production
+```
