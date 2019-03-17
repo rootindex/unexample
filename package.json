@@ -1,0 +1,52 @@
+{
+  "name": "unexample",
+  "version": "1.0.0",
+  "description": "convert .env.example to .env (and some)",
+  "keywords": [
+    "dotenv",
+    "env",
+    "env-example",
+    "unexample"
+  ],
+  "homepage": "https://github.com/rootindex/unexample#readme",
+  "bugs": {
+    "url": "https://github.com/rootindex/unexample/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rootindex/unexample.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Francois Raubenheimer",
+    "email": "rootindex@gmail.com",
+    "url": "https://github.com/rootindex"
+  },
+  "main": "bin/unexample.js",
+  "bin": {
+    "unexample": "bin/unexample.js"
+  },
+  "scripts": {
+    "build": "npx tsc --build ./tsconfig.json"
+  },
+  "dependencies": {
+    "meow": "^5.0.0",
+    "minimist": "^1.2.0",
+    "minimist-options": "^4.0.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/meow": "^5.0.0",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^11.11.3",
+    "@types/underscore": "^1.8.13",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "bundleDependencies": [
+    "meow",
+    "minimist",
+    "minimist-options",
+    "underscore"
+  ]
+}
